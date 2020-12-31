@@ -1,2 +1,2 @@
 docker build -t asperacli .
-docker build -t asperacli:aws -f asperacli.dockerfile .
+docker build -t asperacli:aws -f aws.dockerfile .

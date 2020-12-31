@@ -2,8 +2,8 @@ FROM asperacli:latest
 
 ENV PATH=/opt/bin:$PATH
 
-COPY ascp.aws.sh /opt/bin/ascp.aws.sh
-RUN chmod +x /opt/bin/ascp.aws.sh
+COPY asperacli.aws.sh /opt/bin/asperacli.aws.sh
+RUN chmod +x /opt/bin/asperacli.aws.sh
 
 WORKDIR /scratch
 

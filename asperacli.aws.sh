@@ -18,7 +18,7 @@ WORKFLOW_ID="$WORKFLOW_NAME/$EXECUTION_ID"
 COMMAND=$1
 ARG=$2
 
-function get-ascp-version() {
+function get-asperacli-version() {
     ascp ${ARG}
 }
 

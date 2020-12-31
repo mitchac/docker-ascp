@@ -1,4 +1,4 @@
-FROM ascp:latest
+FROM asperacli:latest
 
 ENV PATH=/opt/bin:$PATH
 

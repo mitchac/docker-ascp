@@ -7,4 +7,4 @@ RUN chmod +x /opt/bin/asperacli.aws.sh
 
 WORKDIR /scratch
 
-ENTRYPOINT ["ascp.aws.sh"]
+ENTRYPOINT ["asperacli.aws.sh"]
